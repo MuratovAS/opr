@@ -1,0 +1,55 @@
+Reset and clocks
+35				LDO_RST_N				Input
+27				PERST_N					Input
+41				XTALIN					Input
+39				CLKOUTP					Output
+40				CLKOUTN					Output
+PCIE interface
+19				AVDD33					Power
+24				AVDD12					Power
+18				PCIE_VRT				In/out
+20				PCIE_CKP				Input
+21				PCIE_CKN				Input
+22				PCIE_TXN				Output
+23				PCIE_TXP				Output
+25				PCIE_RXP				Input
+26				PCIE_RXN				Input
+Programmable I/O
+11				GPIO0					In/out
+28				GPIO1					In/out
+29				GPIO2					In/out
+30				GPIO3					In/out
+31				GPIO4					In/out
+36				GPIO5					In/out
+3				ANTSEL4					In/out
+4				ANTSEL5					In/out
+5				ANTSEL6					In/out
+1				ANTSEL2					In/out
+2				ANTSEL3					In/out
+55				ANTSEL0					In/out
+56				ANTSEL1					In/out
+6				GPIO13					In/out						
+9				WAKE_N					In/out
+10				CLK_REQ_N				In/out
+34				GPIO16					In/out
+WIFI radio interface
+44				WF0_LNA_EXT				Input
+45				WF0_RFION				In/out
+46				WF0_RFIOP				In/out
+49				WF1_LNA_EXT				Input
+51				WF1_RFION				In/out
+52				WF1_RFIOP				In/out
+PMU/SMPS
+17				AVDD12					Power
+16				AVDD16					Power
+12				PVDO					Input
+13				LX						In/out
+14				PGND					In/out
+15				AGND					In/out
+Power supplies
+7,32			VDD33					Power
+8,33			VDD12					Power
+53, 48, 38		AVDD33					Power
+50, 47			AVSS33					Power
+54, 43, 42, 37	AVDD16					Power
+E-PAD 			DVSS					Power
