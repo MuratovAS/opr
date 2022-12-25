@@ -1907,7 +1907,7 @@
       (reference "R4") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/f32ecbe8-471f-4b0d-831c-9a3a555bc765/1d324ae8-44fc-4515-b1bc-b2c245d6858c"
-      (reference "R5") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R5") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/f32ecbe8-471f-4b0d-831c-9a3a555bc765/20d02ea4-82df-4430-b36f-89bba1815b29"
       (reference "R6") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -2252,13 +2252,13 @@
       (reference "R123") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/dd2c23cf-9f8e-476a-84bf-77359973733b/1dd48f7f-6630-4af0-97b5-fc9c67ca5d41"
-      (reference "R124") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R124") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/6054178c-042a-47ce-a16d-1d8c562b09b9/35278751-e556-4080-bd19-3d0f2bb7a3c4"
       (reference "R125") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/6054178c-042a-47ce-a16d-1d8c562b09b9/0624e64b-ec71-4d22-a61e-8ecd1c246d90"
-      (reference "R126") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R126") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/6054178c-042a-47ce-a16d-1d8c562b09b9/8bcdf23b-3266-4721-9b84-b2c2687981cb"
       (reference "R127") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -2404,7 +2404,7 @@
     (path "/dd2c23cf-9f8e-476a-84bf-77359973733b/492373f7-21e1-447b-9c93-8359e4d04ae4"
       (reference "SW1") (unit 1) (value "TS-1187A-B-A-B") (footprint "Button_Switch_SMD:SW_SPST_TL3342")
     )
-    (path "/f32ecbe8-471f-4b0d-831c-9a3a555bc765/52a3e1b0-b5b1-4d63-91af-80ba69777bc8"
+    (path "/f32ecbe8-471f-4b0d-831c-9a3a555bc765/73962827-b1bf-4ec4-a22a-23c9c95f2e6a"
       (reference "SW2") (unit 1) (value "TS-1187A-B-A-B") (footprint "Button_Switch_SMD:SW_SPST_TL3342")
     )
     (path "/6054178c-042a-47ce-a16d-1d8c562b09b9/aa080527-da73-40ca-93f8-ad30c0b0605a"
