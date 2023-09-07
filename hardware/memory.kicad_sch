@@ -4756,7 +4756,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 234.95 76.2 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 58fb8358-ef74-4267-8954-1f8b477c5e16)
     (property "Reference" "R40" (at 233.4514 75.0316 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -6268,7 +6268,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 237.49 48.26 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid e69df56a-54f2-4cf9-bec9-a496baf9116d)
     (property "Reference" "R41" (at 235.9914 47.0916 0)
       (effects (font (size 1.27 1.27)) (justify right))
