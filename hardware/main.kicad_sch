@@ -984,6 +984,12 @@
     (uuid f4312c09-8947-42b5-882c-57ad38da42b8)
   )
 
+  (text "https://jlcpcb.com/parts/componentSearch?searchTxt=mini%20pci-e"
+    (at 219.71 55.88 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid dbbc7959-b2e1-4a28-b509-b4ce446d88be)
+  )
+
   (label "PCIE_CK1_P" (at 60.96 130.81 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 0090d591-734d-416d-b136-09cd566f3519)
@@ -1298,16 +1304,19 @@
   (symbol (lib_id "Connector:Bus_M.2_Socket_M") (at 320.04 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b996e037-0df8-49ab-a4cb-82d6ea5e830e)
-    (property "Reference" "J?" (at 322.2341 52.07 0)
+    (property "Reference" "J10" (at 322.2341 52.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Bus_M.2_Socket_M" (at 322.2341 54.61 0)
+    (property "Value" "AS0BC21-S30BM-7H" (at 322.2341 54.61 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 320.04 76.2 0)
+    (property "Footprint" "MAS_Package_std:Bus_M.2_Socket_M" (at 320.04 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://read.pudn.com/downloads794/doc/project/3133918/PCIe_M.2_Electromechanical_Spec_Rev1.0_Final_11012013_RS_Clean.pdf#page=155" (at 320.04 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "lcsc" "C2832351" (at 320.04 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f1000a6a-46a5-4b32-95b7-4458df86f986))
@@ -1380,7 +1389,7 @@
     (instances
       (project "main"
         (path "/c6e5d5ba-43a3-4ff8-a766-3efdb024d1f4"
-          (reference "J?") (unit 1)
+          (reference "J10") (unit 1)
         )
       )
     )
@@ -1483,7 +1492,7 @@
     (property "Value" "Bus_PCI_Express_Mini" (at 257.4641 130.81 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PCBEdge:BUS_PCI_Express_Mini_Dual" (at 252.73 97.79 0)
+    (property "Footprint" "MAS_Package_std:BUS_PCI_Express_Mini_Dual" (at 252.73 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 248.92 127 0)
