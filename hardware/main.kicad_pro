@@ -534,30 +534,6 @@
     [
       "c6e5d5ba-43a3-4ff8-a766-3efdb024d1f4",
       ""
-    ],
-    [
-      "f32ecbe8-471f-4b0d-831c-9a3a555bc765",
-      "Power"
-    ],
-    [
-      "e5b202fc-ccd0-4d89-97ca-cb0d16448daa",
-      "Memory"
-    ],
-    [
-      "e6705483-2d67-4a41-90e1-a9106665148c",
-      "Ethernet"
-    ],
-    [
-      "6b41ceb1-5c13-465e-bf97-c1cadca4cdf7",
-      "Interface"
-    ],
-    [
-      "dd2c23cf-9f8e-476a-84bf-77359973733b",
-      "Charger"
-    ],
-    [
-      "6054178c-042a-47ce-a16d-1d8c562b09b9",
-      "Other"
     ]
   ],
   "text_variables": {}
