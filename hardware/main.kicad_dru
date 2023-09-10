@@ -135,7 +135,7 @@
 # ----------------------------------- silkscreen (Kicad 7 only) --------------------------
 (rule "Minimum Text"
 	(constraint text_thickness (min 0.15mm))
-	(constraint text_height (min 1mm))
+#	(constraint text_height (min 1mm))
 	(layer "?.Silkscreen"))
 
 (rule "Pad to Silkscreen"
