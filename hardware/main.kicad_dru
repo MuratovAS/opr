@@ -35,11 +35,11 @@
 #	(condition "A.Type == 'via'"))
 
 # special
-(rule "Minimum Via Diameter and Hole Size"
-	(constraint hole_size (min 0.25mm))
-	(constraint via_diameter (min 0.4mm))
-	(constraint disallow buried_via)
-	(condition "A.Type == 'via'"))
+#(rule "Minimum Via Diameter and Hole Size"
+#	(constraint hole_size (min 0.25mm))
+#	(constraint via_diameter (min 0.4mm))
+#	(constraint disallow buried_via)
+#	(condition "A.Type == 'via'"))
 
 # special
 #(rule "Minimum Via Diameter and Hole Size"
@@ -49,11 +49,11 @@
 #	(condition "A.Type == 'via'"))
 
 # special
-#(rule "Minimum Via Diameter and Hole Size"
-#	(constraint hole_size (min 0.15mm))
-#	(constraint via_diameter (min 0.3mm))
-#	(constraint disallow buried_via)
-#	(condition "A.Type == 'via'"))
+(rule "Minimum Via Diameter and Hole Size"
+	(constraint hole_size (min 0.15mm))
+	(constraint via_diameter (min 0.3mm))
+	(constraint disallow buried_via)
+	(condition "A.Type == 'via'"))
 ###
 
 (rule "PTH Hole Size"
@@ -83,11 +83,15 @@
 
 # ----------------------------------- Minimum clearance ----------------------------------
 (rule "hole to hole clearance (different nets)"
-	(constraint hole_to_hole (min 0.5mm))
+	### CHANGES ONLY PRJ
+	#(constraint hole_to_hole (min 0.5mm))
+	(constraint hole_to_hole (min 0.3mm))
 	(condition "A.Net != B.Net"))
 
 (rule "via to track clearance"
-	(constraint hole_clearance (min 0.254mm))
+	### CHANGES ONLY PRJ
+	#(constraint hole_clearance (min 0.254mm))
+	(constraint hole_clearance (min 0.18mm))
 	(condition "A.Type == 'via' && B.Type == 'track'"))
 
 (rule "via to via clearance (same nets)"
