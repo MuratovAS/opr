@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -13,8 +13,6 @@
       "+1V0",
       "+5V",
       "+1V2",
-      "/CC2",
-      "/CC1",
       "+1V0E"
     ],
     "high_contrast_mode": 1,
@@ -74,7 +72,7 @@
       36
     ],
     "visible_layers": "ffcffff_ffffffff",
-    "zone_display_mode": 1
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "main.kicad_prl",
