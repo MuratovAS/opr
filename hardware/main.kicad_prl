@@ -15,7 +15,7 @@
       "+1V2",
       "+1V0E"
     ],
-    "high_contrast_mode": 1,
+    "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
@@ -72,7 +72,7 @@
       35,
       36
     ],
-    "visible_layers": "ffcffff_ffffffff",
+    "visible_layers": "ffcffcf_ffffffff",
     "zone_display_mode": 1
   },
   "meta": {
