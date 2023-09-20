@@ -16,11 +16,14 @@
 #	(condition "A.Type == 'track'"))
 
 # 4-layer , 1oz and 0.5oz copper
-(rule "Minimum Trace Width and Spacing"
+(rule "Minimum Trace Width"
 	(constraint track_width (min 0.1mm))
-	### CHANGES ONLY PRJ
-	(constraint clearance (min 0.1mm))
 	(condition "A.Type == 'track'"))
+
+### CHANGES ONLY PRJ
+(rule "Minimum Spacing"
+	(constraint clearance (min 0.1mm))
+	(condition "A.Type == 'track' && B.Type != 'zone'"))
 ###
 
 # ----------------------------------- Drill/hole size ------------------------------------
