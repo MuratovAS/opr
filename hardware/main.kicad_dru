@@ -23,6 +23,7 @@
 ### CHANGES ONLY PRJ
 (rule "Minimum Spacing"
 	(constraint clearance (min 0.1mm))
+	#(condition "A.Type == 'track'"))
 	(condition "A.Type == 'track' && B.Type != 'zone'"))
 ###
 
