@@ -4,8 +4,8 @@ Open pocket router
 ## Screenshots
 
 ![Top view](assets/opr_t.jpg)
-
 ![Bottom view](assets/opr_b.jpg)
+![Bottom view 2](assets/opr_b2.jpg)
 
 ## In developing!!!
 
