@@ -38908,7 +38908,7 @@
     (property "Value" "U.FL-R-SMT-1(80)" (at 791.21 387.35 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "MAS_Package_std:U.FL-R-SMT-1" (at 787.4 386.08 0)
+    (property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical" (at 787.4 386.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 787.4 386.08 0)
