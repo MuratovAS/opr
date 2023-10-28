@@ -28,8 +28,7 @@ TODO:
 
 ## Supported modules
 
-- WIFI: MT7612E (mPCIe)
-- NVME: N930ES-512GB (M.2-2242)
+- WIFI: MT7612E/MT7603E (x2 mPCIe)
 
 ## Changelog:
 
